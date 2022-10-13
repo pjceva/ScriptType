@@ -1,4 +1,4 @@
-import { Background, Block, Counter, LanguageField, Navbar, TextBox } from "./styles"
+import { Background, Block, Counter, Div, LanguageField, Navbar, TextBox } from "./styles"
 import LoginIcon from "../../icons/Icon.Login.png"
 import { ProgressBar } from "../../components/ProgressBar"
 
@@ -11,6 +11,8 @@ export const Main = () =>{
                     <img src={LoginIcon} />
                 </Navbar>
                 <LanguageField placeholder="Choose your programing language"/>
+                <Div>
+                    <p>Top speed: 70wpm</p>
                 <TextBox>
                     <span>
                         Lorem ipsum dolor sit amet, 
@@ -25,9 +27,12 @@ export const Main = () =>{
                         eu fall
                     </span>
                 </TextBox>
+                </Div>
+                
                 <ProgressBar value={10} max={30}/>
                 <Counter>10/30</Counter>
             </Block>
+            
         </Background>
     )
 }

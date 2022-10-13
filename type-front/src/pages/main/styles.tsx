@@ -6,7 +6,7 @@ export const Background = styled.section`
     background-size: cover;
     width: 100%;
     height: 100vh;
-    display: flex;
+    
 `;
 
 export const Block = styled.section`
@@ -45,19 +45,30 @@ export const LanguageField = styled.input`
     color: #FFFFFF;
     padding-left: 7px;
     
-
 `;
+
+export const Div = styled.div`
+    height: 18rem;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    p{
+        color: #29E4B7;
+        position: absolute;
+        right: 0;
+        font-size: 18px;
+    }
+`
 
 export const TextBox = styled.section`
     height: 10rem;
     background: #333333;
     border-radius: 10px;
     border: 1px solid #29E4B7;
-    /* border-style: solid;
-    border-color: #29E4B7; */
     margin: auto 0;
     padding: 20px 30px;
-    /* overflow: hidden; */
+    overflow: hidden;
     span{
         font-family: 'Inter';
         font-style: normal;
@@ -68,10 +79,9 @@ export const TextBox = styled.section`
 `;
 
 export const Counter = styled.span`
-    color: #FFFFFF;
-    font-family: 'Inter';
-    font-style: normal;
     font-size: 2.3rem;
     margin-bottom: 30px;
+    color: #29E4B7;
     align-self: flex-end;
+
 `
