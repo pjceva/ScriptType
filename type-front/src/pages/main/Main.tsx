@@ -1,5 +1,6 @@
-import { Background, Block, Counter, LanguageField, Navbar, ProgressBar, TextBox } from "./styles"
+import { Background, Block, Counter, LanguageField, Navbar, TextBox } from "./styles"
 import LoginIcon from "../../icons/Icon.Login.png"
+import { ProgressBar } from "../../components/ProgressBar"
 
 export const Main = () =>{
     return (
@@ -24,8 +25,9 @@ export const Main = () =>{
                         eu fall
                     </span>
                 </TextBox>
-                <ProgressBar />
-                <Counter>3/30</Counter>
+                {/* <ProgressBar /> */}
+                <ProgressBar value={10} max={30}/>
+                <Counter>10/30</Counter>
             </Block>
         </Background>
     )
