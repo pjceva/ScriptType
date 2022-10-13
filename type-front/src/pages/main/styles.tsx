@@ -57,6 +57,7 @@ export const TextBox = styled.section`
     border-color: #29E4B7; */
     margin: auto 0;
     padding: 20px 30px;
+    /* overflow: hidden; */
     span{
         font-family: 'Inter';
         font-style: normal;
@@ -64,13 +65,6 @@ export const TextBox = styled.section`
         color: rgba(255, 255, 255, 0.5);
         
     }
-`;
-
-export const ProgressBar = styled.div`
-    height: 0.2rem;
-    border-radius: 5px;
-    background: #FFFFFF;
-    margin-bottom: 10px;
 `;
 
 export const Counter = styled.span`
