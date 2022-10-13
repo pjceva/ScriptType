@@ -67,13 +67,6 @@ export const TextBox = styled.section`
     }
 `;
 
-// export const ProgressBar = styled.div`
-//     height: 0.2rem;
-//     border-radius: 5px;
-//     background: #FFFFFF;
-//     margin-bottom: 10px;
-// `;
-
 export const Counter = styled.span`
     color: #FFFFFF;
     font-family: 'Inter';

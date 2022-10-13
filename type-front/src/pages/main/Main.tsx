@@ -25,7 +25,6 @@ export const Main = () =>{
                         eu fall
                     </span>
                 </TextBox>
-                {/* <ProgressBar /> */}
                 <ProgressBar value={10} max={30}/>
                 <Counter>10/30</Counter>
             </Block>

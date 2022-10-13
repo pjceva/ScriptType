@@ -9,7 +9,7 @@ export const Bar = styled.progress`
         border-radius: 7px;
         background-color: #29E4B7;
     }
-    ::-webkit-progress-value {
+    ::-webkit-progress-bar {
         border-radius: 7px;
         
     }
