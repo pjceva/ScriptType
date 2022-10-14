@@ -11,11 +11,9 @@ export const Container = styled.section`
 `
 
 export const Div = styled.div`
-    height: 18%;
+    margin: 0 auto;
+    padding: 25px 0;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
     h1{
         font-size: 1.7rem;
         color: white;
