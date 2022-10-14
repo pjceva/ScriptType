@@ -8,7 +8,7 @@ export const SideBar = () =>{
                 <h1>Username</h1>
             </Div>
             <Bar>
-                
+                <span>Amigos</span>
             </Bar>
         </Container>
     )

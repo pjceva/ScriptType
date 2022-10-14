@@ -25,5 +25,11 @@ export const Div = styled.div`
 
 export const Bar = styled.section`
     background: rgba(41, 228, 183, 0.15);
+    padding: 15px 5px;
     
+    span{
+        font-size: 1.3rem;
+        
+    }
+
 `
