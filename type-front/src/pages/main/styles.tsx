@@ -35,15 +35,14 @@ export const Navbar = styled.section`
 
 export const LanguageField = styled.input`
     width: 40%;
-    height: 1.5em;
+    height: 1.7em;
     background: #4A4545;
     border-radius: 3px;
     border: none;
-
     font-family: 'Inter';
     font-style: normal;
     color: #FFFFFF;
-    padding-left: 7px;
+    padding: 1px 7px;
     
 `;
 
@@ -66,13 +65,15 @@ export const TextBox = styled.section`
     background: #333333;
     border-radius: 10px;
     border: 1px solid #29E4B7;
-    margin: auto 0;
+    /* margin: auto 0; */
+    margin-top: 3rem;
     padding: 20px 30px;
     overflow: hidden;
+    position: absolute;
     span{
         font-family: 'Inter';
         font-style: normal;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         color: rgba(255, 255, 255, 0.5);
         
     }
