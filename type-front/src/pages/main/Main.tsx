@@ -1,10 +1,12 @@
 import { Background, Block, Counter, Div, LanguageField, Navbar, TextBox } from "./styles"
 import LoginIcon from "../../icons/Icon.Login.png"
 import { ProgressBar } from "../../components/ProgressBar"
+import { SideBar } from "../../components/SideBar"
 
 export const Main = () =>{
     return (
         <Background>
+            <SideBar />
             <Block>
                 <Navbar>
                     <h1>ScriptType</h1>

@@ -24,7 +24,7 @@ export const Navbar = styled.section`
     justify-content: space-between;
 
     h1{
-        font-size: 1.7rem;
+        font-size: 2.5rem;
         color: #29E4B7
     }
     img{
