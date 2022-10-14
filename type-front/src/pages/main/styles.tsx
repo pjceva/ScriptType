@@ -35,12 +35,12 @@ export const Navbar = styled.section`
 
 export const LanguageField = styled.input`
     width: 40%;
-    height: 1.7em;
     background: #4A4545;
     border-radius: 3px;
     border: none;
     font-family: 'Inter';
     font-style: normal;
+    font-size: 1.2rem;
     color: #FFFFFF;
     padding: 1px 7px;
     
