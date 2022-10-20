@@ -20,14 +20,27 @@ export const Div = styled.div`
         
     }
 `
+export const Body = styled.section`
+    
+`
 
 export const Bar = styled.section`
     background: rgba(41, 228, 183, 0.15);
     padding: 15px 5px;
-    
-    span{
-        font-size: 1.3rem;
-        
-    }
+    font-size: 1.4rem;
 
+`
+
+export const SubSection = styled.section`
+    width: 80%;
+    margin: 10px auto;
+    border-bottom: 1px solid white;
+    font-size: 1.4rem;
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
+    span{
+        font-size: 1rem;
+    }
+    
 `
