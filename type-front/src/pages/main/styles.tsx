@@ -70,13 +70,11 @@ export const TextBox = styled.section`
     padding: 20px 30px;
     overflow: hidden;
     position: absolute;
-    span{
-        font-family: 'Inter';
-        font-style: normal;
-        font-size: 1.9rem;
-        color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 1.9rem;
+    color: rgba(255, 255, 255, 0.5);
         
-    }
+    
 `;
 
 export const Counter = styled.span`

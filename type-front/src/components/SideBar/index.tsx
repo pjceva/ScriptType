@@ -10,14 +10,6 @@ export const SideBar = () =>{
             </Div>
             <Body>
                 <Bar>Amigos</Bar>
-                {/* <SubSection>
-                    Jampas
-                    <span>100wpm</span>
-                </SubSection>
-                <SubSection>Pze<span>100wpm</span></SubSection>
-                <SubSection>Renato<span>100wpm</span></SubSection>
-                <SubSection>Isabel<span>100wpm</span></SubSection>
-                <SubSection>Stella<span>100wpm</span></SubSection> */}
                 <Subsection name={"Jampas"} top_speed={100}/>
                 <Subsection name={"Pze"} top_speed={50}/>
                 <Subsection name={"Isabel"} top_speed={10}/>

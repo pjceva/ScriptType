@@ -16,7 +16,7 @@ export const Main = () =>{
                 <Div>
                     <p>Top speed: 70wpm</p>
                 <TextBox>
-                    <span>
+                    
                         Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt 
@@ -27,7 +27,7 @@ export const Main = () =>{
                         Duis aute irure dolor in reprehenderit 
                         in voluptate velit esse cillum dolore 
                         eu fall
-                    </span>
+                    
                 </TextBox>
                 </Div>
                 
