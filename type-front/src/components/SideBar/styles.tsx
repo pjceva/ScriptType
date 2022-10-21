@@ -21,8 +21,18 @@ export const Div = styled.div`
         
     }
 `
-export const Body = styled.section`
-    
+export const ScrollContainer = styled.section`
+    height: 24vh;
+    overflow-y: scroll;
+    ::-webkit-scrollbar {
+        width: 3px;
+        
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
 `
 
 export const Bar = styled.section`
