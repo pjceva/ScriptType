@@ -24,9 +24,9 @@ export const Div = styled.div`
 export const ScrollContainer = styled.section`
     height: 24vh;
     overflow-y: scroll;
+    overflow-x: hidden;
     ::-webkit-scrollbar {
         width: 3px;
-        
     }
     ::-webkit-scrollbar-thumb {
         background: #FFFFFF;
