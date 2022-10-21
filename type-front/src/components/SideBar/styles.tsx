@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.section`
     height: 100vh;
     width: 15%;
-    /* background: rgba(217, 217, 217, 0.1); */
     background: rgba(41, 228, 183, 0.05);
     position: absolute;
     display: flex;
@@ -29,7 +28,7 @@ export const ScrollContainer = styled.section`
         width: 3px;
     }
     ::-webkit-scrollbar-thumb {
-        background: #FFFFFF;
+        background: rgba(255, 255, 255, 0.35);
         border-radius: 10px;
     }
 
