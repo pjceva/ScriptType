@@ -1,10 +1,12 @@
 import { Background, Block, Counter, Div, LanguageField, Navbar, TextBox } from "./styles"
 import LoginIcon from "../../icons/Icon.Login.png"
 import { ProgressBar } from "../../components/ProgressBar"
+import { SideBar } from "../../components/SideBar"
 
 export const Main = () =>{
     return (
         <Background>
+            <SideBar />
             <Block>
                 <Navbar>
                     <h1>ScriptType</h1>
@@ -14,7 +16,7 @@ export const Main = () =>{
                 <Div>
                     <p>Top speed: 70wpm</p>
                 <TextBox>
-                    <span>
+                    
                         Lorem ipsum dolor sit amet, 
                         consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt 
@@ -25,7 +27,7 @@ export const Main = () =>{
                         Duis aute irure dolor in reprehenderit 
                         in voluptate velit esse cillum dolore 
                         eu fall
-                    </span>
+                    
                 </TextBox>
                 </Div>
                 

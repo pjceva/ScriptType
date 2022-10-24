@@ -24,7 +24,7 @@ export const Navbar = styled.section`
     justify-content: space-between;
 
     h1{
-        font-size: 1.7rem;
+        font-size: 2.5rem;
         color: #29E4B7
     }
     img{
@@ -70,13 +70,11 @@ export const TextBox = styled.section`
     padding: 20px 30px;
     overflow: hidden;
     position: absolute;
-    span{
-        font-family: 'Inter';
-        font-style: normal;
-        font-size: 1.9rem;
-        color: rgba(255, 255, 255, 0.5);
+    
+    font-size: 1.9rem;
+    color: rgba(255, 255, 255, 0.5);
         
-    }
+    
 `;
 
 export const Counter = styled.span`
