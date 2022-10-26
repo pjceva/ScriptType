@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { Subsection } from "../Subsection"
 import { Bar, Container, Div, ScrollContainer } from "./styles"
+import Seta from "../../icons/Seta.png"
 
 export const SideBar = () =>{
     const [sidebar, setSidebar] = useState(false)
@@ -32,7 +33,9 @@ export const SideBar = () =>{
                 <Bar>Desafios</Bar>
                     
             </div>
-            <button onClick={showSidebar}>flsdkjfk</button>
+            <button className={sidebar ? 'hide' : 'show'} onClick={showSidebar}>
+                <img src={Seta} />
+            </button>
         </Container>
     )
 }

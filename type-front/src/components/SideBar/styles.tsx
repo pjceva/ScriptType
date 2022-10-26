@@ -1,12 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 15%;
+    width: 17.5%;
+    height: 100vh;
     position: absolute;
+    display: flex;
 
+    
+    /* background: black; */
     .nav-menu {
     left: -100%;
-    position: absolute;
+    position: relative;
     transition: 350ms;
     }
 
@@ -19,9 +23,26 @@ export const Container = styled.section`
         left: 0;
         transition: 350ms;
     }
-    button{
+    
+    .show{
+        align-self: center;
         position: absolute;
+        transition: 450ms;
+        
     }
+
+    .hide{
+        align-self: center;
+        transform: rotate(180deg);
+        transition: 450ms;
+        
+    }
+    button{
+        border: none;
+        background: none;
+        
+    }
+    
 `
 
 export const Div = styled.div`
