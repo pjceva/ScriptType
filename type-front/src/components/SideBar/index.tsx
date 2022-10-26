@@ -1,10 +1,15 @@
+import { useState } from "react"
 import { Subsection } from "../Subsection"
 import { Bar, Container, Div, ScrollContainer } from "./styles"
 
 export const SideBar = () =>{
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSidebar = () => setSidebar(!sidebar)
+
     return(
         <Container>
-            
+            <div className={sidebar ? 'nav-menu active' : 'nav-menu'}>
             <Div>
                 <h1>Username</h1>
             </Div>
@@ -25,7 +30,9 @@ export const SideBar = () =>{
                 
 
                 <Bar>Desafios</Bar>
-            
+                    
+            </div>
+            <button onClick={showSidebar}>flsdkjfk</button>
         </Container>
     )
 }

@@ -1,13 +1,27 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    height: 100vh;
     width: 15%;
-    background: rgba(41, 228, 183, 0.05);
     position: absolute;
-    display: flex;
-    flex-direction: column;
 
+    .nav-menu {
+    left: -100%;
+    position: absolute;
+    transition: 350ms;
+    }
+
+    .nav-menu.active {
+        height: 100vh;
+        width: 100%;
+        background: rgba(41, 228, 183, 0.05);
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        transition: 350ms;
+    }
+    button{
+        position: absolute;
+    }
 `
 
 export const Div = styled.div`
@@ -39,5 +53,8 @@ export const Bar = styled.section`
     background: rgba(41, 228, 183, 0.35);
     padding: 15px 5px;
     font-size: 1.4rem;
+    :hover{
+        background-color: rgba(41, 228, 183, 0.35);
+    }
 
 `
