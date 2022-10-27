@@ -40,6 +40,7 @@ export const Container = styled.section`
     button{
         border: none;
         background: none;
+        cursor: pointer;
         
     }
     
@@ -74,8 +75,8 @@ export const Bar = styled.section`
     background: rgba(41, 228, 183, 0.35);
     padding: 15px 5px;
     font-size: 1.4rem;
-    :hover{
+    /* :hover{
         background-color: rgba(41, 228, 183, 0.35);
-    }
+    } */
 
 `
